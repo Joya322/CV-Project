@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:lavender;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 20px;
+    
+}
+
+/*------------
+header start
+--------------*/
+header{
+    
+}
+
+#profileImage{
+    width: 110px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+
+}
+
+.header-imageDescription{
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:darkgreen;
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.header-contact a, .header-contact p{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/*------------
+header end
+--------------*/
+
+/*------------
+clearing div
+--------------*/
+.clear-div{
+    clear: both;
+}
+
+/*--------------------------
+horizontal rule for header
+---------------------------*/
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+    background-color: black;
+}
+
+
+/*---------------------
+personal section start
+-----------------------*/
+#personal-section{
+
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.left-content{
+    width: 30%;
+    float: left;
+}
+
+.right-content{
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+.common-hr{
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    margin: 20px auto;
+}
+/*---------------------
+personal section end
+-----------------------*/
+/* education section start */
+.education-section{
+
+}
+.left-education{
+    width: 45%;
+    float: left;
+}
+.right-education{
+    width: 45%;
+    float: right;
+}
+/* education section end */
+
+/* footer start */
+footer{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+footer p{
+    color: white;
+    margin-top: 20px;
+
+}
+/* footer end */
