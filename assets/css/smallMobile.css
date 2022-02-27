@@ -6,6 +6,7 @@
 
 body {
     background-color: lavender;
+
 }
 
 .container {
@@ -14,6 +15,7 @@ body {
     background-color: aquamarine;
     padding: 20px;
     box-sizing: border-box;
+    background-image: url('./assets/images/download4.jpg');
 
 }
 
