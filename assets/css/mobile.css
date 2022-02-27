@@ -28,7 +28,6 @@ header {}
     border: 3px solid white;
     border-radius: 50%;
     float: left;
-    content: url("./assets/images/me.jpg");
 }
 
 .header-imageDescription {
@@ -50,7 +49,7 @@ h6 {
 .header-contact {
     display: inline-block;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .header-contact a,
