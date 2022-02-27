@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
     padding: 20px;
-    background-image: url('./assets/images/download1.jpg');
+    background-image: url('/assets/images/download1.jpg');
 
 }
 

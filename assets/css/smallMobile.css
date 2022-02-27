@@ -12,10 +12,10 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: aquamarine;
+ 
     padding: 20px;
     box-sizing: border-box;
-    background-image: url('./assets/images/download4.jpg');
+    background-image: url('/assets/images/download4.jpg');
 
 }
 
