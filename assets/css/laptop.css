@@ -26,7 +26,7 @@ header {}
     border: 3px solid white;
     border-radius: 50%;
     float: left;
-    content: url("/assets/images/download4.jpg");
+    content: url("./assets/images/download4.jpg");
 
 }
 
