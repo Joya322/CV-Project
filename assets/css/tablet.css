@@ -27,7 +27,7 @@ header {}
     border: 3px solid white;
     border-radius: 50%;
     float: left;
-    
+    content: url("/assets/images/download3.jpg");
 
 }
 
@@ -47,7 +47,7 @@ h6 {
 }
 
 .header-contact {
-    display:inline-block;
+    display: inline-block;
     padding: 10px;
     margin-left: 90px;
 }
