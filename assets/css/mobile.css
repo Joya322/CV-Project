@@ -9,7 +9,7 @@ body {}
 .container {
     width: 100%;
     background-color: aquamarine;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
 
 }
@@ -22,6 +22,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 #profileImage {
@@ -35,6 +36,7 @@ header {
 .header-imageDescription {
     padding: 5px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 h1,
@@ -112,16 +114,18 @@ main #personal-section {
 }
 
 .left-content {
-    width: 30%;
+    width: 40%;
     float: left;
     padding-right: 20px;
 }
 
 .right-content {
-    width: 65%;
+    width: 60%;
     float: left;
     text-align: justify;
-    font-size: 14px;
+    font-size: 12px;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 
 .common-hr {
