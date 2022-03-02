@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -10,10 +9,11 @@ body {
 
 .container {
     max-width: 1000px;
+    height: auto;
     margin: 0 auto;
-   
+    background-color: aquamarine;
     padding: 20px;
-    background-image: url('/assets/images/download2.jpg');
+
 
 }
 
@@ -23,18 +23,18 @@ header start
 header {}
 
 #profileImage {
-    width: 70px;
-    height: 80px;
+    width: 110px;
+    height: 120px;
     border: 3px solid white;
     border-radius: 50%;
     float: left;
-    content: url("./assets/images/download3.jpg");
+    content: url("./assets/images/download2.jpg");
 
 }
 
 .header-imageDescription {
     float: left;
-    padding: 30px 30px 20px 30px;
+    padding: 30px;
 }
 
 h1,
@@ -44,13 +44,11 @@ h4,
 h5,
 h6 {
     color: darkgreen;
-    font-size: 18px;
 }
 
 .header-contact {
-    display: inline-block;
-    padding: 10px;
-    margin-left: 90px;
+    float: right;
+    padding: 30px;
 }
 
 .header-contact a,

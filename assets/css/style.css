@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
     background-color: aquamarine;
     padding: 20px;
-    background-image: url('/assets/images/download3.jpg');
+    
 
 }
 
@@ -48,8 +48,7 @@ h6 {
 
 .header-contact {
     float: right;
-    padding: 30px;
-    margin-top: 10px;
+    padding: 20px;
 }
 
 .header-contact a,

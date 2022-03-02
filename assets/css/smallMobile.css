@@ -6,36 +6,39 @@
 
 body {
     background-color: lavender;
-
 }
 
 .container {
-    max-width: 1000px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
- 
+    background-color: aquamarine;
     padding: 20px;
     box-sizing: border-box;
-    background-image: url('/assets/images/download4.jpg');
 
 }
 
 /*------------
 header start
 --------------*/
-header {}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 #profileImage {
-    width: 50px;
-    height: 60px;
+    width: 80px;
+    height: 90px;
     border: 3px solid white;
     border-radius: 50%;
-    float: left;
-    content: url("./assets/images/me.jpg");
+
 }
 
 .header-imageDescription {
-    float: left;
-    padding: 15px;
+    padding: 5px;
+    text-align: center;
 }
 
 h1,
@@ -45,22 +48,22 @@ h4,
 h5,
 h6 {
     color: darkgreen;
-    font-size: 11px;
 }
-
 
 .header-contact {
-    display: inline-block;
-    padding: 10px;
-    margin-left: 80px;
+    padding-left: 80px;
 }
 
-.header-contact a,
 .header-contact p {
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a {
     text-decoration: none;
     color: teal;
     font-weight: bold;
-    font-size: 11px;
+    margin-left: 10px;
 }
 
 .header-contact a:hover {
@@ -84,45 +87,51 @@ horizontal rule for header
 ---------------------------*/
 hr {
     border: solid black 3px;
-    max-width: 100%;
+    width: 100%;
     margin: 20px auto;
     border-bottom: none;
     background-color: black;
 }
 
+main {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
 
 /*---------------------
 personal section start
 -----------------------*/
-#personal-section {}
+main #personal-section {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
 
 .content {
+    width: auto;
+    height: auto;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .left-content {
-    max-width: 30%;
+    width: 30%;
     float: left;
-    box-sizing: border-box;
-    overflow: hidden;
-    padding: 0 6px 6px 6px;
-
+    padding-right: 20px;
 }
 
 .right-content {
     width: 65%;
     float: left;
     text-align: justify;
-    box-sizing: border-box;
-    font-size: 10px;
-    overflow: hidden;
-    padding-left: 6px;
+    font-size: 14px;
 }
 
 .common-hr {
     border: 1px solid black;
     background-color: black;
-    max-width: 100%;
+    width: 100%;
     margin: 20px auto;
 }
 
@@ -148,21 +157,18 @@ personal section end
 footer {
     background-color: green;
     text-align: center;
-    padding: 5px;
-    font-size: 11px;
-    width: 100%;
+    padding: 10px;
 }
 
 footer a {
     text-decoration: none;
     color: white;
     margin: 20px;
-
 }
 
 footer p {
     color: white;
-    margin-top: 10px;
+    margin-top: 20px;
 
 }
 
