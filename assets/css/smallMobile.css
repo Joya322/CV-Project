@@ -118,14 +118,17 @@ main #personal-section {
 }
 
 .left-content h4 {
-    color: blue;
+    color: orangered;
+    font-size: 14px;
 }
 
 .right-content {
     width: 65%;
     float: left;
     text-align: justify;
-    font-size: 14px;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-left: 10px;
 }
 
 .common-hr {
