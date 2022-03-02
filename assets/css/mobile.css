@@ -1,40 +1,40 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: lavender;
-}
+body {}
 
 .container {
-    max-width: 1000px;
-    height: auto;
-    margin: 0 auto;
+    width: 100%;
     background-color: aquamarine;
     padding: 20px;
-
+    box-sizing: border-box;
 
 }
 
 /*------------
 header start
 --------------*/
-header {}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 #profileImage {
-    width: 110px;
-    height: 120px;
+    width: 80px;
+    height: 90px;
     border: 3px solid white;
     border-radius: 50%;
-    float: left;
-    content: url("./assets/images/download2.jpg");
 
 }
 
 .header-imageDescription {
-    float: left;
-    padding: 30px;
+    padding: 5px;
+    text-align: center;
 }
 
 h1,
@@ -46,16 +46,20 @@ h6 {
     color: darkgreen;
 }
 
-.header-contact {
-    float: right;
-    padding: 25px;
+.header-contact {}
+
+.header-contact p {
+    color: teal;
+    font-weight: bold;
+    font-size: 12px;
 }
 
-.header-contact a,
-.header-contact p {
+.header-contact a {
     text-decoration: none;
     color: teal;
     font-weight: bold;
+    margin-left: 10px;
+    font-size: 11px;
 }
 
 .header-contact a:hover {
@@ -85,25 +89,39 @@ hr {
     background-color: black;
 }
 
+main {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
 
 /*---------------------
 personal section start
 -----------------------*/
-#personal-section {}
+main #personal-section {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
 
 .content {
+    width: auto;
+    height: auto;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 
 .left-content {
     width: 30%;
     float: left;
+    padding-right: 20px;
 }
 
 .right-content {
-    width: 70%;
+    width: 65%;
     float: left;
     text-align: justify;
+    font-size: 14px;
 }
 
 .common-hr {
