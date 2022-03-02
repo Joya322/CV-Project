@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: lavender;
-}
+body {}
 
 .container {
     width: 100%;
-    height: 100%;
     background-color: aquamarine;
     padding: 20px;
     box-sizing: border-box;
@@ -49,13 +46,12 @@ h6 {
     color: darkgreen;
 }
 
-.header-contact {
-    padding-left: 80px;
-}
+.header-contact {}
 
 .header-contact p {
     color: teal;
     font-weight: bold;
+    font-size: 12px;
 }
 
 .header-contact a {
@@ -63,6 +59,7 @@ h6 {
     color: teal;
     font-weight: bold;
     margin-left: 10px;
+    font-size: 11px;
 }
 
 .header-contact a:hover {
